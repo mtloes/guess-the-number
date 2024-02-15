@@ -1,5 +1,5 @@
 listaDeNumerosSorteados = [];
-let numeroMaximo = 10;
+let numeroMaximo = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 function exibirTextoNaTela (tag, texto) {
@@ -11,7 +11,7 @@ function exibirTextoNaTela (tag, texto) {
 
 function exibirmensageminicial() {
     exibirTextoNaTela ("h1", "Que número é esse?");
-exibirTextoNaTela ("p", "Estou pensando em um número entre 1 e 10");
+exibirTextoNaTela ("p", "Estou pensando em um número entre 1 e 50");
 }
 
 exibirmensageminicial();
